@@ -4,7 +4,7 @@ super + Return
 super + d
 	dmenu_run
 super + r
-	$TERMINAL -e lf
+	$TERMINAL -e $FILE
 super + e
 	$TERMINAL -e neomutt
 super + m
@@ -16,7 +16,7 @@ super + i
 super + y
 	$TERMINAL -e calcurse
 super + shift + a
-	$TERMINAL -e pulsemixer
+	$TERMINAL -e pulsemixer; pkill -RTMIN+10 i3blocks
 super + shift + c
 	camtoggle
 super + shift + e
@@ -38,11 +38,38 @@ super + Insert
 super + shift + x
 	prompt "Shutdown computer?" "sudo -A shutdown -h now"
 super + shift + BackSpace
-	prompt "Reboot computer?" "sudo -A shutdown -h now"
+	prompt "Reboot computer?" "sudo -A shutdown -r now"
 super + x
 	mpc pause; pauseallmpv; i3lock -e -f -c 1d2021; xset dpms force off
 XF86Launch1
 	xset dpms force off
+XF86AudioMute
+	lmc mute
+XF86AudioLowerVolume
+	lmc down 5
+shift+XF86AudioLowerVolume
+	lmc down 10
+control+XF86AudioLowerVolume
+	lmc down 1
+XF86AudioRaiseVolume
+	lmc up 5
+shift+XF86AudioRaiseVolume
+	lmc up 10
+control+XF86AudioRaiseVolume
+	lmc up 1
+XF86AudioNext
+	lmc next
+XF86AudioPlay
+	lmc toggle
+XF86AudioPrev
+	lmc prev
+XF86AudioStop
+	lmc toggle
+XF86MonBrightnessDown
+	xbacklight -dec 15
+XF86MonBrightnessUp
+	xbacklight -inc 15
+
 
 # Recording
 # Take screenshot
@@ -99,7 +126,7 @@ super + F6
 	torwrap
 # toggle torrent daemon
 super + F7
-	td-togggle
+	td-toggle
 # sync email
 super + F8
 	mailsync
