@@ -1,5 +1,5 @@
 
-#!:q"q/bin/sh
+#!/bin/sh
 [ -f "$HOME/.xprofile" ] && . ~/.xprofile
 
 udiskie --tray &
