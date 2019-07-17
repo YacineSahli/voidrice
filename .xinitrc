@@ -4,6 +4,6 @@
 
 udiskie --tray &
 thunar --daemon &
-/./home/kzeran/github-issue-9/dockd --daemon &
+dockd --daemon &
 checkdock
 exec i3

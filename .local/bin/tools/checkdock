@@ -3,6 +3,6 @@
   string=$(lsusb)
   if [[ $string = *"Dock"* ]]; then
   dockd --set docked
-  dock.hook
+  /./etc/dockd/dock.hook
   remaps
   fi
