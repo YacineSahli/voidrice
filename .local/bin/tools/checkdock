@@ -2,7 +2,7 @@
 
   string=$(lsusb)
   if [[ $string = *"Dock"* ]]; then
-  /./home/kzeran/github-issue-9/dockd --set docked
-  /./home/kzeran/github-issue-9/dock.hook
+  dockd --set docked
+  dock.hook
   remaps
   fi
