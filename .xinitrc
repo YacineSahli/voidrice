@@ -5,5 +5,6 @@
 udiskie --tray &
 thunar --daemon &
 dockd --daemon &
+redshift-gtk &
 checkdock
 exec i3
