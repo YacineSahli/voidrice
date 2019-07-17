@@ -22,7 +22,7 @@ super + shift + c
 super + shift + e
 	tutorialvids
 super + shift + w
-	webby | xargs -r $BROWSER
+	thunderbird
 super + w
 	$BROWSER
 super + shift + g
