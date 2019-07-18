@@ -3,7 +3,5 @@
   string=$(lsusb)
   if [[ $string = *"Dock"* ]]; then
   dockd --set docked
-  setbg
   /./etc/dockd/dock.hook
-  remaps
   fi
