@@ -117,7 +117,7 @@ super + F3
 	displayselect
 # Hibernate
 super + F4
-	prompt 'Suspend computer?' 'i3lock -c 000000 ; systemctl suspend'
+	prompt 'Suspend computer?' 'systemctl suspend'
 # Restart/rescan wifi/eth networks
 super + F5
 	sudo -A systemctl restart NetworkManager
