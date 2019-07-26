@@ -7,4 +7,5 @@ thunar --daemon &
 dockd --daemon &
 redshift-gtk &
 checkdock
+numlockx
 exec i3
