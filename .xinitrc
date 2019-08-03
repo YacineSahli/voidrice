@@ -6,8 +6,8 @@ udiskie --tray &
 thunar --daemon &
 dockd --daemon &
 redshift-gtk &
-checkdock
 numlockx
 xrdb -merge ~/.Xresources
-xrander --output LVDS1 --scale 1.405x1.405
+xrandr --output LVDS1 --scale 1.405x1.405
+checkdock
 exec i3

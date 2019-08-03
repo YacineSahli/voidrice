@@ -3,5 +3,6 @@
   string=$(lsusb)
   if [[ $string = *"Dock"* ]]; then
   dockd --set docked
+  /./home/kzeran/.local/bin/tools/hdmi_sound_toggle
   /./etc/dockd/dock.hook
   fi
