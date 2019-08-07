@@ -11,3 +11,14 @@ unclutter &		# Remove mouse when idle
 xcompmgr &		# xcompmgr for transparency
 dunst &			# dunst for notifications
 mpdupdate &
+export GTK_IM_MODULE=ibus
+export XMODIFIERS=@im=ibus
+export QT_IM_MODULE=ibus
+ibus-daemon -drx &
+udiskie --tray &
+thunar --daemon &
+dockd --daemon &
+redshift-gtk &
+numlockx
+checkdock
+xrandr --output LVDS1 --scale 1.405x1.405
