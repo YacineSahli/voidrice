@@ -231,3 +231,5 @@ set clipboard+=unnamedplus
 """Write sudo
 cnoreabbrev w!! w !sudo tee % >/dev/null
 inoremap {<CR> {<CR>}<ESC>O<TAB>
+set ts=4 sw=4
+hi SpellBad ctermbg=200
