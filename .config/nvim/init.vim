@@ -107,6 +107,7 @@ set clipboard+=unnamedplus
 " Automatically deletes all trailing whitespace on save.
         autocmd BufWritePre * %s/\s\+$//e
 
+<<<<<<< HEAD
 " When shortcut files are updated, renew bash and vifm configs with new material:
         autocmd BufWritePost ~/.config/bmdirs,~/.config/bmfiles !shortcuts
 
@@ -243,6 +244,11 @@ hi SpellBad ctermbg=200
 " When shortcut files are updated, renew bash and ranger configs with new material:
 	autocmd BufWritePost files,directories !shortcuts
 " Run xrdb whenever Xdefaults or Xresources are updated.
+=======
+" When shortcut files are updated, renew bash and ranger configs with new material:
+	autocmd BufWritePost files,directories !shortcuts
+" Run xrdb whenever Xdefaults or Xresources are updated.
+>>>>>>> e867fcfae509aab72e0efd6a2ca2c251c684154e
 	autocmd BufWritePost *Xresources,*Xdefaults !xrdb %
 " Update binds when sxhkdrc is updated.
 	autocmd BufWritePost *sxhkdrc !pkill -USR1 sxhkd

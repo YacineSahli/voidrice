@@ -21,4 +21,5 @@ numlockx
 checkdock
 xrandr --output LVDS1 --scale 1.405x1.405
 sxhkd -m 1 &		# Bind keys with sxhkd
+$STATUSBAR &		# script for updating the status bar
 mpd-module-update &	# Check for when to update the mpd module

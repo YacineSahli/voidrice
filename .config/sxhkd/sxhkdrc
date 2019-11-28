@@ -22,30 +22,18 @@ super + m
 	$TERMINAL -e ncmpcpp
 super + n
 	$TERMINAL -e newsboat
-<<<<<<< HEAD
-super + i
-	$TERMINAL -e htop
-super + y
-	$TERMINAL -e calcurse -D ~/.config/calcurse
-super + shift + a
-	$TERMINAL -e pulsemixer; pkill -RTMIN+10 i3blocks
-=======
 super + c
 	$TERMINAL -e calcurse -D ~/.config/calcurse
 super + v
 	$TERMINAL -e nvim -c VimwikiIndex
 super + shift + a
 	$TERMINAL -e alsamixer; pkill -RTMIN+10 $STATUSBAR
->>>>>>> e867fcfae509aab72e0efd6a2ca2c251c684154e
 super + shift + c
 	mpv --no-osc --no-input-default-bindings --input-conf=/dev/null --title='mpvfloat' /dev/video0
 super + shift + e
 	tutorialvids
-<<<<<<< HEAD
-=======
 super + w
 	$TERMINAL -e sudo nmtui
->>>>>>> e867fcfae509aab72e0efd6a2ca2c251c684154e
 super + shift + w
 	thunderbird
 super + w
@@ -61,18 +49,13 @@ super + Insert
 super + shift + x
 	prompt "Shutdown computer?" "sudo -A shutdown -h now"
 super + shift + BackSpace
-<<<<<<< HEAD
-	prompt "Reboot computer?" "sudo -A shutdown -r now"
-=======
 	prompt "Reboot computer?" "sudo -A reboot"
 super + shift + Escape
 	prompt 'Leave Xorg?' 'killall Xorg'
->>>>>>> e867fcfae509aab72e0efd6a2ca2c251c684154e
 super + x
 	ifinstalled slock && ( slock & xset dpms force off ; mpc pause ; pauseallmpv )
 XF86Launch1
 	xset dpms force off
-<<<<<<< HEAD
 XF86AudioMute
 	lmc mute
 XF86AudioLowerVolume
@@ -100,7 +83,6 @@ XF86MonBrightnessDown
 XF86MonBrightnessUp
 	xbacklight -inc 7
 
-=======
 XF86TouchpadToggle
 	(synclient | grep "TouchpadOff.*1" && synclient TouchpadOff=0) || synclient TouchpadOff=1
 XF86Touchpad{Off,On}
@@ -109,7 +91,6 @@ XF86MonBrightnessDown
 	xbacklight -dec 15
 XF86MonBrightnessUp
 	xbacklight -inc 15
->>>>>>> e867fcfae509aab72e0efd6a2ca2c251c684154e
 
 # Recording
 # Take screenshot
@@ -197,15 +178,8 @@ super + F3
 	displayselect
 # Hibernate
 super + F4
-<<<<<<< HEAD
-	prompt 'Suspend computer?' 'systemctl suspend'
-# Restart/rescan wifi/eth networks
-super + F5
-	sudo -A systemctl restart NetworkManager
-=======
 	prompt 'Hibernate computer?' 'sudo -A zzz -Z'
 super + F5 is unbound.
->>>>>>> e867fcfae509aab72e0efd6a2ca2c251c684154e
 # Start torrent daemon/open interface
 super + F6
 	torwrap

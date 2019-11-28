@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Luke's GNU/Linux Dotfiles
 
 These are my dotfiles! The name of the repo, "voidrice", came from the fact they were originally on my Void Linux machine, but these files are distro-independent. In fact, I now push changes from my X200 running Parabola or my X220 running Arch.
@@ -50,3 +51,50 @@ The programs I use here are always changing, but luckily you can just look at th
 + [List of programs installed by LARBS, including optional packages](https://github.com/LukeSmithxyz/LARBS/blob/master/archi3/progs.csv)
 
 `A` marks programs in the AUR, `G` marks git repositories.
+=======
+# The Voidrice (Luke Smith <https://lukesmith.xyz>'s dotfiles)
+
+These are the dotfiles deployed by [LARBS](https://larbs.xyz) and as seen on [my YouTube channel](https://youtube.com/c/lukesmithxyz).
+
+- Very useful scripts are in `~/.local/bin/`
+- Settings for:
+	- vim/nvim (text editor)
+	- zsh (shell)
+	- i3wm/i3-gaps (window manager)
+	- i3blocks (status bar)
+	- sxhkd (general key binder)
+	- ranger (file manager)
+	- lf (file manager)
+	- mpd/ncmpcpp (music)
+	- sxiv (image/gif viewer)
+	- mpv (video player)
+	- calcurse (calendar program)
+	- tmux
+	- other stuff like xdg default programs, inputrc and more, etc.
+- I try to minimize what's directly in `~` so:
+	- All configs that can be in `~/.config/` are.
+	- Some environmental variables have been set in `~/.zprofile` to move configs into `~/.config/`
+- Bookmarks in text files used by various scripts (like `~/.local/bin/shortcuts`)
+	- File bookmarks in `~/.config/files`
+	- Directory bookmarks in `~/.config/directories`
+
+## Want even more?
+
+My setup is pretty modular nowadays.
+I use several suckless program that are meant to be configured and compiled by the user and I also have separate repos for some other things.
+Check out their links:
+
+- [dwm](https://github.com/lukesmithxyz/dwm) (the window manager I usually use now which is fully compatible with this repo)
+- [st](https://github.com/lukesmithxyz/st) (the terminal emulator assumed to be used by these dotfiles)
+- [mutt-wizard (`mw`)](https://github.com/lukesmithxyz/mutt-wizard) - (a terminal-based email system that can store your mail offline without effort)
+
+## Install these dotfiles
+
+Use [LARBS](https://larbs.xyz) to autoinstall everything:
+
+```
+curl -LO larbs.xyz/larbs.sh
+```
+
+or clone the repo files directly to your home directory and install [the prerequisite programs](https://github.com/LukeSmithxyz/LARBS/blob/master/progs.csv) or [those required for the i3 setup](https://github.com/LukeSmithxyz/LARBS/blob/master/legacy.csv).
+>>>>>>> e867fcfae509aab72e0efd6a2ca2c251c684154e

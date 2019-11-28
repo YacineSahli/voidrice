@@ -118,8 +118,6 @@ To type capital letters, hold down the \f(CWShift\fP key\(emthat might sound lik
 .ITEM
 \f(CWMod+H/J/K/L\fP \(en Move a window around
 .ITEM
-\f(CWMod+Ctrl+h/j/k/l\fP \(en Move a workspace around screens
-.ITEM
 \f(CWMod+Y/U/I/O\fP \(en Resize windows
 .ITEM
 \f(CWMod+s/S\fP \(en Increase/decrease inner gaps
@@ -175,9 +173,15 @@ Naturally, you can use \f(CWyay\fP to look for and install any you want to add.
 \f(CWMod+n\fP \(en newsboat (RSS feed reader)
 .ITEM
 \f(CWMod+A\fP \(en alsa (audio system control)
+<<<<<<< HEAD
 .ITEM
 \f(CWMod+W\fP \(en Web Browser (Brave)
 .ITEM
+=======
+.ITEM
+\f(CWMod+W\fP \(en Web Browser (Brave)
+.ITEM
+>>>>>>> e867fcfae509aab72e0efd6a2ca2c251c684154e
 \f(CWMod+G\fP \(en GIMP (for general image manipulation)
 .LIST OFF
 .HEADING 2 "System"
