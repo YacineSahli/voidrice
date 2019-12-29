@@ -5,7 +5,7 @@ Xft.hintstyle:  hintfull
 Xft.hinting: 1
 Xft.antialias: 1
 Xft.rgba: rgb
-st.font: FuraMono Nerd Font:pixelsize=26:antialias=true:autohint=true;
+st.font: FuraMono Nerd Font:pixelsize=22:antialias=true:autohint=true;
 /* brocode
 *.background: #282828
 *.foreground: white
@@ -27,6 +27,7 @@ st.font: FuraMono Nerd Font:pixelsize=26:antialias=true:autohint=true;
 *.color7:      #d6dbe5
 *.color15:     #ffffff
 *.colorBD:     #d6dbe5
+
 */
 
 *.background: #0e1019

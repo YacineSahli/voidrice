@@ -1,5 +1,4 @@
 # Luke's config for the Zoomer Shell
-
 autoload -U colors && colors
 PS1="%B%{$fg[red]%}[%{$fg[yellow]%}%n%{$fg[green]%}@%{$fg[blue]%}%M %{$fg[magenta]%}%~%{$fg[red]%}]%{$reset_color%}$%b "
 
@@ -11,6 +10,7 @@ autoload -U compinit
 zstyle ':completion:*' menu select
 zmodload zsh/complist
 compinit
+alias emulator="/opt/android-sdk/emulator/emulator"
 
 # Include hidden files in autocomplete:
 _comp_options+=(globdots)
@@ -67,5 +67,7 @@ lfcd () {
 
 bindkey -s '^o' 'lfcd\n'  # zsh
 
+source ~/.bin/tmuxinator.zsh
 # Load zsh-syntax-highlighting; should be last.
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh 2>/dev/null
+

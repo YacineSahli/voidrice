@@ -1,9 +1,9 @@
 #!/usr/bin/env sh
-[ -f "$HOME/.xprofile" ] && . ~/.xprofile
-
-
-xrdb -merge ~/.Xresources
-xrandr --output LVDS1 --scale 1.405x1.405
-checkdock
-exec i3
-
+[ -f ~/.xprofile ] && . ~/.xprofile
+case "$LARBSWM" in
+	dwm) while :; do
+		ssh-agent dwm || break
+		done ;;
+	i3) exec i3 ;;
+	*) echo "No valid LARBS window manager detected." ;;
+esac
