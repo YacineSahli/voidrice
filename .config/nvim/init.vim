@@ -92,10 +92,6 @@ set ts=4 sw=4
 	autocmd BufRead,BufNewFile *.ms,*.me,*.mom,*.man set filetype=groff
 	autocmd BufRead,BufNewFile *.tex set filetype=tex
 
-" Copy selected text to system clipboard:
-	vnoremap <C-c> "+y
-	map <C-p> "+P
-
 " Save file as sudo on files that require root permission
 	cnoremap w!! execute 'silent! write !sudo tee % >/dev/null' <bar> edit!
 
