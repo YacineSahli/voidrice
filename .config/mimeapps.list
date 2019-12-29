@@ -13,3 +13,4 @@ application/rss+xml=rss.desktop
 
 [Added Associations]
 text/html=firefox.desktop;
+application/x-bittorrent=transmission-gtk.desktop;

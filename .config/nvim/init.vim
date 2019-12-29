@@ -26,6 +26,7 @@ set mouse=a
 set nohlsearch
 set clipboard+=unnamedplus
 
+set ts=4 sw=4
 " Some basics:
         nnoremap c "_c
         set nocompatible
@@ -238,7 +239,6 @@ set clipboard+=unnamedplus
 """Write sudo
 cnoreabbrev w!! w !sudo tee % >/dev/null
 inoremap {<CR> {<CR>}<ESC>O<TAB>
-set ts=4 sw=4
 hi SpellBad ctermbg=200
 " When shortcut files are updated, renew bash and ranger configs with new material:
 	autocmd BufWritePost files,directories !shortcuts
