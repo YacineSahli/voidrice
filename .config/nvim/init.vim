@@ -92,8 +92,6 @@ set ts=4 sw=4
 	autocmd BufRead,BufNewFile *.ms,*.me,*.mom,*.man set filetype=groff
 	autocmd BufRead,BufNewFile *.tex set filetype=tex
 
-" Save file as sudo on files that require root permission
-	cnoremap w!! execute 'silent! write !sudo tee % >/dev/null' <bar> edit!
 
 " Enable Goyo by default for mutt writting
 	autocmd BufRead,BufNewFile /tmp/neomutt* let g:goyo_width=80
@@ -117,9 +115,6 @@ set ts=4 sw=4
         inoremap <leader><leader> <Esc>/<++><Enter>"_c4l
         vnoremap <leader><leader> <Esc>/<++><Enter>"_c4l
         map <leader><leader> <Esc>/<++><Enter>"_c4l
-
-" Save file as sudo on files that require root permission
-	cnoremap w!! execute 'silent! write !sudo tee % >/dev/null' <bar> edit!
 
 """LATEX
         " Word count:
