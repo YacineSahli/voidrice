@@ -5,5 +5,5 @@
   dockd --set docked
   /./etc/dockd/dock.hook
   fi
-  /./home/kzeran/.local/bin/tools/hdmi_sound_toggle
+  /./home/kzeran/.local/bin/hdmi_sound_toggle
   setbg

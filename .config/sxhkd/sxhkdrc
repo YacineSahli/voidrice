@@ -97,7 +97,7 @@ super + {_,shift +} bracketright
 super + {_,shift +} bracketleft
 	mpc seek -{10,120}
 # Increase volume
-super {_,shift +} + plus
+super + {equal,plus}
 	amixer sset Master {5,15}%+; pkill -RTMIN+10 $STATUSBAR
 # Decrease volume
 super {_,shift +} + minus
