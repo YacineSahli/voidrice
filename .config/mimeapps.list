@@ -6,7 +6,7 @@ text/plain=text.desktop;
 text/x-shellscript=text.desktop;
 application/postscript=pdf.desktop;
 application/pdf=pdf.desktop;
-image/png=img.desktop;
+image/png=sxiv.desktop
 image/jpeg=img.desktop;
 image/gif=img.desktop;
 application/rss+xml=rss.desktop
@@ -15,3 +15,4 @@ x-scheme-handler/discord-409416265891971072=discord-409416265891971072.desktop
 [Added Associations]
 text/html=firefox.desktop;
 application/x-bittorrent=transmission-gtk.desktop;
+image/png=sxiv.desktop;

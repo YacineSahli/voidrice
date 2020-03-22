@@ -2,6 +2,12 @@ command=~/.local/bin/statusbar/$BLOCK_NAME
 separator_block_width=15
 markup=pango
 
+[coronabe]
+interval=7200
+
+[coronatw]
+interval=7200
+
 [record]
 command=cat /tmp/recordingicon
 interval=once
@@ -29,22 +35,22 @@ signal=11
 #interval=20
 #signal=7
 
-[weather]
-interval=18000
-signal=5
+#[weather]
+#interval=18000
+#signal=5
 
 #[mailbox]
 #label=📬
 #interval=180
 #signal=12
 
-[memory]
-interval=30
-label=🧠
+#[memory]
+#interval=30
+#label=🧠
 
-[cpu]
-interval=15
-label=💻
+#[cpu]
+#interval=15
+#label=💻
 
 [volume]
 interval=once
