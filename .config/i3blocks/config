@@ -18,18 +18,16 @@ label=🎼
 interval=once
 signal=11
 
-#[news]
-#label=📰
-#interval=once
-#signal=6
+[news]
+interval=once
+signal=6
 
 #[iplocate]
 #interval=30
 
-#[pacpackages]
-#label=📦
-#interval=once
-#signal=8
+[pacpackages]
+interval=once
+signal=8
 
 #[torrent]
 #interval=20
@@ -39,10 +37,9 @@ signal=11
 #interval=18000
 #signal=5
 
-#[mailbox]
-#label=📬
-#interval=180
-#signal=12
+[mailbox]
+interval=180
+signal=12
 
 #[memory]
 #interval=30
