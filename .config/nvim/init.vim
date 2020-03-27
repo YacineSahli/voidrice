@@ -65,6 +65,9 @@ set ts=4 sw=4
         map <C-k> <C-w>k
         map <C-l> <C-w>l
 
+" Replace ex mode with gq
+	map Q gq
+
 " Check file in shellcheck:
         map <leader>s :!clear && shellcheck %<CR>
 

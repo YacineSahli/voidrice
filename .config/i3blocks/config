@@ -18,9 +18,9 @@ label=🎼
 interval=once
 signal=11
 
-[news]
-interval=once
-signal=6
+#[news]
+#interval=once
+#signal=6
 
 #[iplocate]
 #interval=30
