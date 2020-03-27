@@ -10,7 +10,6 @@
 for_window [class="^.*"] border pixel 2
 gaps inner 3
 gaps outer 3
-set $inner_gaps 15
 set $term --no-startup-id $TERMINAL
 set $mod Mod4
 set $stoprec --no-startup-id dmenurecord kill
@@ -19,10 +18,6 @@ set $reboot sudo -A reboot
 set $netrefresh --no-startup-id sudo -A systemctl restart NetworkManager
 set $hibernate sudo -A systemctl suspend
 
-# #---Gaps---# #
-for_window [class="^.*"] border pixel 2
-gaps inner $inner_gaps
-gaps outer $outer_gaps
 
 # #---Dropdown Windows---# #
 # General dropdown window traits. The order can matter.
