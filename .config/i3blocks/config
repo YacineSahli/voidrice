@@ -25,9 +25,9 @@ signal=11
 #[iplocate]
 #interval=30
 
-[pacpackages]
-interval=once
-signal=8
+#[pacpackages]
+#interval=once
+#signal=8
 
 #[torrent]
 #interval=20
@@ -41,13 +41,13 @@ signal=8
 interval=180
 signal=12
 
-#[memory]
-#interval=30
-#label=🧠
+[memory]
+interval=30
+label=🧠
 
-#[cpu]
-#interval=15
-#label=💻
+[cpu]
+interval=15
+label=💻
 
 [volume]
 interval=once

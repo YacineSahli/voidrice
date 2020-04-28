@@ -44,3 +44,5 @@ export LESS_TERMCAP_ue="$(printf '%b' '[0m')"
 
 # Switch escape and caps if tty and no passwd required:
 sudo -n loadkeys ~/.local/share/larbs/ttymaps.kmap 2>/dev/null
+
+export ANDROID_SDK=/opt/android-sdk

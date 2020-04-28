@@ -10,7 +10,6 @@ autoload -U compinit
 zstyle ':completion:*' menu select
 zmodload zsh/complist
 compinit
-alias emulator="/opt/android-sdk/emulator/emulator"
 
 # Include hidden files in autocomplete:
 _comp_options+=(globdots)
