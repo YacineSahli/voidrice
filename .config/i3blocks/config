@@ -16,7 +16,7 @@ signal=9
 [music]
 label=🎼
 interval=once
-signal=11
+signal=6
 
 #[news]
 #interval=once

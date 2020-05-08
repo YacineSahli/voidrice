@@ -34,4 +34,4 @@ else
 	icon="🔉"
 fi
 
-printf "%s %s% %\\n" "$icon" "$(echo "$vol" | sed -e 's/$/%/')"
+printf "%s %s%%\\n" "$icon" "$vol"
