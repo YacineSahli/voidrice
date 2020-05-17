@@ -44,3 +44,5 @@ application/x-extension-xht=firefox.desktop;
 application/vnd.oasis.opendocument.text=libreoffice-writer.desktop;
 image/jpeg=img.desktop;
 video/mp4=mplayer.desktop;
+image/svg+xml=org.inkscape.Inkscape.desktop;gimp.desktop;
+video/x-mjpeg=img.desktop;
