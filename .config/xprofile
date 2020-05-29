@@ -35,7 +35,7 @@ $STATUSBAR &		# script for updating the status bar
 mpd-module-update &	# Check for when to update the mpd module
 setbg &		# Set the background
 xrdb -merge ~/.Xresources
-xset r rate 200 20 &	# Speed xrate up
+xset r rate 200 40 &	# Speed xrate up
 hdmi_sound_toggle &
 syncthing-gtk -m &
 # This is the list for lf icons:
