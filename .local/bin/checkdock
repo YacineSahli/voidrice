@@ -1,0 +1,9 @@
+#!/bin/bash
+
+  string=$(lsusb)
+  if [[ $string = *"Dock"* ]]; then
+  dockd --set docked
+  /./etc/dockd/dock.hook
+  fi
+  /./home/kzeran/.local/bin/hdmi_sound_toggle
+  setbg

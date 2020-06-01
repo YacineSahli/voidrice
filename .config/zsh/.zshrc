@@ -1,4 +1,5 @@
 # Luke's config for the Zoomer Shell
+autoload -U colors && colors
 
 # Enable colors and change prompt:
 autoload -U colors && colors	# Load colors
@@ -76,6 +77,8 @@ bindkey '^[[P' delete-char
 # Edit line in vim with ctrl-e:
 autoload edit-command-line; zle -N edit-command-line
 bindkey '^e' edit-command-line
+
+source ~/.bin/tmuxinator.zsh
 
 # Load syntax highlighting; should be last.
 source /usr/share/zsh/plugins/fast-syntax-highlighting/fast-syntax-highlighting.plugin.zsh 2>/dev/null

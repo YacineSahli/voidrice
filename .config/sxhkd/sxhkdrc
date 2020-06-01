@@ -30,9 +30,9 @@ super + shift + c
 	mpv --no-osc --no-input-default-bindings --input-conf=/dev/null --title='mpvfloat' /dev/video0
 super + shift + e
 	tutorialvids
-super + w
-	$TERMINAL -e sudo nmtui
 super + shift + w
+	thunderbird
+super + w
 	$BROWSER
 
 # Et cetera...
@@ -57,9 +57,10 @@ XF86TouchpadToggle
 XF86Touchpad{Off,On}
 	synclient TouchpadOff={1,0}
 XF86MonBrightnessDown
-	xbacklight -dec 15
+	xbacklight -dec 7
 XF86MonBrightnessUp
-	xbacklight -inc 15
+	xbacklight -inc 7
+
 
 # Recording
 # Take screenshot
@@ -121,7 +122,7 @@ XF86PowerOff
 XF86Calculator
 	$TERMINAL -e bc
 XF86Sleep
-	prompt 'Hibernate computer?' 'sudo -A zzz'
+	#Taken care by system
 XF86WWW
 	$BROWSER
 XF86DOS

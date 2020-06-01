@@ -137,7 +137,12 @@ Naturally, you can use \f(CWyay\fP to look for and install any you want to add.
 .ITEM
 \f(CWMod+n\fP \(en newsboat (RSS feed reader)
 .ITEM
+<<<<<<< HEAD
+\f(CWMod+A\fP \(en alsa (audio system control)
+<<<<<<< HEAD
+=======
 \f(CWMod+A\fP \(en pulsemixer (audio system control)
+>>>>>>> c83f43bed1a24d46b9f327624bc2b0b783449b44
 .ITEM
 \f(CWMod+w\fP \(en Web Browser (Brave)
 .ITEM
