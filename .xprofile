@@ -38,6 +38,8 @@ xrdb -merge ~/.Xresources
 xset r rate 200 40 &	# Speed xrate up
 hdmi_sound_toggle &
 syncthing-gtk -m &
+xset -dpms
+xset s off
 # This is the list for lf icons:
 export LF_ICONS="di=📁:\
 fi=📃:\
