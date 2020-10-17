@@ -1,0 +1,6 @@
+#!/bin/bash
+
+[ "$(stat -c %y ~/.cache/coronatw 2> /dev/null | cut -b 1-16 )" != "$(date '+%Y-%m-%d %H:%M')" ] &&
+	curl -s "https://corona-stats.online/tw" > ~/.cache/coronatw
+
+grep "Taiwan" ~/.cache/coronatw | sed "s/\s*//g;s/║//g;s/│/;/g;s/\x1b\[[0-9;]*m//g" | awk -F ";"  '{print "🇹🇼😷"$3 " ("$4") 💀" $5 "("$6")"}'
