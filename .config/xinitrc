@@ -10,6 +10,7 @@
 
 # export STATUSBAR="i3blocks" # Uncomment this line when using i3.
 
+
 . ~/.xprofile
 
 # Your default LARBS WM is determined in your `~/.profile` on login.  Here we
@@ -17,5 +18,9 @@
 
 # Comment/uncomment these lines depending on what wm you want to use. Also
 # check the i3blocks line above.
-ssh-agent dwm
+ ssh-agent dwm
 # ssh-agent i3
+
+## UNCOMEMENT THE FOLLOWING LINES TO ACTIVATE KDEuU
+#export DESKTOP_SESSION=plasma
+# exec startplasma-x11
