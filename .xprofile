@@ -27,6 +27,7 @@ sleep 3
 autorandr --change &
 xplugd &
 setxkbmap -layout us -variant altgr-intl -option nodeadkeys
+xfce4-power-manager &
 
 ibus-daemon -drx
 
