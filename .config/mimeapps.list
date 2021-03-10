@@ -14,14 +14,15 @@ x-scheme-handler/chrome=firefox.desktop;
 x-scheme-handler/ftp=firefox.desktop;
 x-scheme-handler/http=firefox.desktop;
 x-scheme-handler/https=firefox.desktop;
-application/pdf=firefox.desktop;org.gnome.Evince.desktop;org.pwmt.zathura-pdf-mupdf.desktop;
+application/pdf=org.gnome.Evince.desktop;org.pwmt.zathura-pdf-mupdf.desktop;firefox.desktop;
+application/x-bittorrent=transmission-gtk.desktop;
 
 [Default Applications]
 application/pdf=pdf.desktop;
 application/postscript=pdf.desktop;
 application/rss+xml=rss.desktop
 application/vnd.oasis.opendocument.text=onlyoffice-desktopeditors.desktop;
-application/x-bittorrent=torrent.desktop;
+application/x-bittorrent=transmission-gtk.desktop
 application/x-extension-htm=firefox.desktop
 application/x-extension-html=firefox.desktop
 application/x-extension-shtml=firefox.desktop

@@ -9,6 +9,7 @@ endif
 
 call plug#begin(system('echo -n "${XDG_CONFIG_HOME:-$HOME/.config}/nvim/plugged"'))
 Plug 'tpope/vim-surround'
+Plug 'tpope/vim-obsession'
 Plug 'preservim/nerdtree'
 Plug 'junegunn/goyo.vim'
 Plug 'jreybert/vimagit'
@@ -30,6 +31,9 @@ set noshowmode
 set noruler
 set laststatus=0
 set noshowcmd
+set scrolloff=5
+set ignorecase
+set smartcase
 
 " Some basics:
 	nnoremap c "_c
